@@ -7,8 +7,12 @@ This is a basic plugin template using CommonLibSSE-NG.
 * C++23 Compiler (MSVC, Clang-CL)
 
 ## Getting Started
+Clone [CommonLibSSE-NG](https://github.com/alandtse/CommonLibSSE-NG) somewhere
+and set the `COMMONLIB_SSE_FOLDER` environment variable to its path.
+
+Clone this repo:
 ```bat
-git clone --recurse-submodules https://github.com/libxse/commonlibsse-ng-template
+git clone https://github.com/libxse/commonlibsse-ng-template
 cd commonlibsse-ng-template
 ```
 
