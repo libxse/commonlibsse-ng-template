@@ -1,5 +1,5 @@
 -- include subprojects
-includes("lib/commonlibsse-ng")
+includes(os.getenv("COMMONLIB_SSE_FOLDER"))
 
 -- set project constants
 set_project("commonlibsse-ng-template")
